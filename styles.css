@@ -59,7 +59,8 @@ a:hover {
 .button {
   text-decoration: none;
   border: none;
-  font-size: 2em
+  font-size: 2em;
+  background-color: none;
 }
 
 #header {
