@@ -56,6 +56,11 @@ a {
 a:hover {
   color: #F6A623;
 }
+.button {
+  text-decoration: none;
+  border: none;
+  font-size: 14px
+}
 
 #header {
   background-color: #1abc9c;
