@@ -39,7 +39,25 @@
       <div class="post">
         <div class="post-author">
           <img src="me.png">
-          <span>Raffaele</span>
+          <script>
+            function moveBut() {
+              var elem = document.getElementById("rafBut");
+              var pos = 0;
+              var id = setInterval(frame, 5);
+              function frame() {
+              if (pos == 500) {
+              clearInterval(id);
+              } else {
+              pos++;
+              elem.style.transform = 'translateX(' +  pos + 'px' + ')';
+
+                 }
+                }
+               }
+             </script>
+            <span><span id="grosso"></span> <button class="button" id= "rafBut"
+            onclick='moveBut();document.getElementById("grosso").innerHTML = "grosso"'>
+            Raffaele</button> </span>
         </div>
         <p class="post-date">20/10/2018</p>
         <h3 class="post-title">L'ho sempre saputo comunque</h3>
