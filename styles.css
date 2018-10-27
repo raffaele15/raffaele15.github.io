@@ -8,6 +8,7 @@ body {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+  cursor: url(images/my-cursor.png), auto;
 }
 .column {
   min-width: 300px;
