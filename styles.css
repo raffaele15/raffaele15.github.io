@@ -14,6 +14,7 @@ body {
   min-width: 300px;
   display: inline-block;
   vertical-align: top;
+  cursor: url(doge.png) 16 16, auto;
 }
 .post, .about {
   max-width: 800px;
