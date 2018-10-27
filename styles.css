@@ -3,7 +3,7 @@ body {
   color:#555;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  cursor: url(doge.png), auto;
+  cursor: url(doge.png) 16 16, auto;
 }
 .container {
   max-width: 1000px;
