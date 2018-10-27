@@ -54,9 +54,11 @@ h1, h2, h3, h4 {
 a {
   color: #1abc9c;
   text-decoration: none;
+   cursor: url(doge.png) 16 16, auto;
 }
 a:hover {
   color: #F6A623;
+   cursor: url(doge.png) 16 16, auto;
 }
 .button {
   text-decoration: none;
@@ -67,6 +69,7 @@ a:hover {
   color:#555;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+   cursor: url(doge.png) 16 16, auto;
 }
 #header {
   background-color: #1abc9c;
