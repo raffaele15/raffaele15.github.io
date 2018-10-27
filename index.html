@@ -73,9 +73,10 @@
      <div class="post-container">
        <div class="post">
          <div class="post-author">
-           <img src="isacco.png">
+           <img id="isaccoImg" src="isacco.png">
            <span><button class="button"
-            onmouseover='this.innerHTML= "Viola"' onclick='this.innerHTML= "Lorenzo"' onmouseout='this.innerHTML= "Isacco"' >
+            onmouseover='this.innerHTML= "Viola";document.getElementById("isaccoImg").img= "viola.png" ' 
+            onclick='this.innerHTML= "Lorenzo"' onmouseout='this.innerHTML= "Isacco"' >
             Isacco</button></span>
          </div>
          <p class="post-date">21/10/2018</p>
