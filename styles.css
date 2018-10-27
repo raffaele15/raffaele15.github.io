@@ -3,6 +3,7 @@ body {
   color:#555;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  cursor: url(doge.png), auto;
 }
 .container {
   max-width: 1000px;
@@ -66,7 +67,6 @@ a:hover {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
-
 #header {
   background-color: #1abc9c;
   height: 150px;
