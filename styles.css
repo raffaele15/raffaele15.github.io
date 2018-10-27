@@ -8,7 +8,7 @@ body {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  cursor: url(images/my-cursor.png), auto;
+  cursor: url(doge.png) 16 16, auto;
 }
 .column {
   min-width: 300px;
@@ -51,6 +51,7 @@ p {
 }
 h1, h2, h3, h4 {
   color: #333;
+  cursor: url(doge.png) 16 16, auto;
 }
 a {
   color: #1abc9c;
@@ -76,42 +77,51 @@ a:hover {
   background-color: #1abc9c;
   height: 150px;
   line-height: 150px;
+  cursor: url(doge.png) 16 16, auto;
 }
 #header a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em
+    cursor: url(doge.png) 16 16, auto;
 }
 #header a:hover {
   color: #222;
+  cursor: url(doge.png) 16 16, auto;
 }
 #header-title {
   diplay: block;
   float: left;
   font-size: 20px;
   font-weight: bold;
+  cursor: url(doge.png) 16 16, auto;
 }
 #header-nav {
   display: block;
   float: right;
   margin-top: 0;
+  cursor: url(doge.png) 16 16, auto;
 }
 #header-nav li {
   display: inline;
   padding-left: 20px;
+  cursor: url(doge.png) 16 16, auto;
 }
 
 
 #footer {
   background-color: #2f2f2f;
   padding: 50px 0;
+  cursor: url(doge.png) 16 16, auto;
 }
 #footer h4 {
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  cursor: url(doge.png) 16 16, auto;
 }
 #footer p {
   color: white;
+  cursor: url(doge.png) 16 16, auto;
 }
