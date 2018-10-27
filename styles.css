@@ -67,6 +67,7 @@ a:hover {
   color:#555;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  cursor: url(doge.png), auto;
 }
 #header {
   background-color: #1abc9c;
