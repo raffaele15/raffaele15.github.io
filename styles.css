@@ -91,7 +91,7 @@ a:hover {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.1em
+  letter-spacing: 0.1em;
     cursor: url(doge.png) 16 16, auto;
 }
 #header a:hover {
